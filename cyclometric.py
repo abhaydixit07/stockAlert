@@ -26,7 +26,7 @@ class CyclomaticComplexity:
 # Example usage
 if __name__ == "__main__":
     filename = "code.txt"  # replace with your filename
-    with open(filename, "r") as file:
+    with open(filename, 'r', encoding='utf-8') as file:
         code_content = file.read()
 
     complexity_calculator = CyclomaticComplexity(code_content)
